@@ -2,7 +2,6 @@ import React from "react"
 import ShoutyText from "lib/shouty-text"
 import Grid from "lib/grid"
 import Button from "lib/button"
-
 import "./style.css"
 
 class Hero extends React.Component {
