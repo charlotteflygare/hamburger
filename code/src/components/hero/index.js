@@ -8,13 +8,12 @@ class Hero extends React.Component {
   render() {
     return (
       <div className="hero">
-        <Grid>
-          <div className="logo">
-            <img src="/logo.svg" alt="Technigo" />
-          </div>
-          <ShoutyText className="title" text="A popup tech school. Now in sthlm." />
-          <Button className="button" text="Keep me updated" />
-        </Grid>
+        <div className="logo mobile">
+          <img src="/img/bring_mob.jpeg" alt="bring" />
+        </div>
+        <div className="logo desktop">
+          <img src="/img/bring_desktop.jpeg" alt="bring" />
+        </div>
       </div>
     )
   }

@@ -1,6 +1,14 @@
-.hero {
-  background: #0025FF;
-  padding: 60px 0;
+img {
+  width: 100%;
+  height: auto;
+}
+
+.mobile {
+  display: block;
+}
+
+.desktop {
+  display: none;
 }
 
 .hero .title {
@@ -10,19 +18,26 @@
 }
 
 .hero .logo {
-  text-align: center;
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-  background: #ffffff;
-  margin-bottom: 40px;
+  /* text-align: center; */
+  width: 100% !important;
+  height: auto !important;
+  padding: 0 !important;
+  position: relative;
+  /* margin-bottom: 40px; */
 }
 
-.hero .logo img {
-  width: 140px;
-  margin-top: 55px;
-}
 
-.hero .button {
+/* .hero .button {
   background: #F6A623;
+  position: absolute;
+  top: 50%;
+} */
+
+@media screen and (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: block;
+  }
 }
