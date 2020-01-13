@@ -1,6 +1,7 @@
 .shouty-button {
   border: none;
   padding: 15px 20px;
+  margin-left: 25px;
   border-radius: 0;
   color: #fff;
 }
